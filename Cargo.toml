@@ -1,0 +1,9 @@
+[package]
+name = "proxie"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sozu = { git = "https://github.com/Shine-neko/sozu.git", branch = "fix-https-timeout" }
+sozu-command-lib = { git = "https://github.com/Shine-neko/sozu.git", branch = "fix-https-timeout" }
+sozu-lib = { git = "https://github.com/Shine-neko/sozu.git", branch = "fix-https-timeout" }
